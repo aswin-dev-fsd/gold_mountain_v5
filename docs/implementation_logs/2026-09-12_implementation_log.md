@@ -37,6 +37,17 @@
 - Verified build stability (`npm run build` completed with 0 errors).
 - **Git Checkpoint:** `feat: Stage 4 - Homepage modular assembly`
 
-## 5. Current Status & Next Steps
-- Currently planning **Stage 5: Subpages** (Wellness, Stay, Experience, About, Contact, Enquire).
-- Will keep this log updated as further changes occur today.
+## 5. Stage 5: Subpages Scaffolding
+- Built out the dedicated core routes to support the navigational architecture.
+- **`/wellness`**: Explains the holistic philosophy and Ayurveda/Yoga modalities.
+- **`/stay`**: Details Short, Wellness, and Monthly stay patterns without using fake booking engines.
+- **`/experience`**: Highlights Darshan, the Five Elements, and the farm environment.
+- **`/about`**: Details the brand origin story and team dedication.
+- **`/contact`**: Features verified temporary contact placeholders and a map placeholder.
+- **`/enquire`**: Implemented a beautifully designed, client-side rendered form (Multi-step / long-form UI) to handle premium enquiries.
+- Verified build stability (`npm run build` completed with 0 errors).
+- **Git Checkpoint:** `feat: Stage 5 - Subpages scaffolding`
+
+## 6. Current Status & Next Steps
+- Stage 1-5 core site architecture is fully built and deployed to GitHub.
+- Next steps involve reviewing these layouts, gathering the final verified client copy/assets, and integrating them to replace the placeholders.
