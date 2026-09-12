@@ -37,17 +37,19 @@
 - Verified build stability (`npm run build` completed with 0 errors).
 - **Git Checkpoint:** `feat: Stage 4 - Homepage modular assembly`
 
-## 5. Stage 5: Subpages Scaffolding
-- Built out the dedicated core routes to support the navigational architecture.
-- **`/wellness`**: Explains the holistic philosophy and Ayurveda/Yoga modalities.
-- **`/stay`**: Details Short, Wellness, and Monthly stay patterns without using fake booking engines.
-- **`/experience`**: Highlights Darshan, the Five Elements, and the farm environment.
-- **`/about`**: Details the brand origin story and team dedication.
-- **`/contact`**: Features verified temporary contact placeholders and a map placeholder.
-- **`/enquire`**: Implemented a beautifully designed, client-side rendered form (Multi-step / long-form UI) to handle premium enquiries.
+## 5. Stages 5-8: Subpage Precision Refactoring
+- Reviewed the explicit page requirements in `docs/gold_mountain/PAGES/`.
+- **Stage 5 - `/wellness`**: Refactored the philosophy breakdown into an editorial composition (Yoga, Food, Nature) and applied exact headline copy ("A slower way back to yourself.").
+- **Stage 6 - `/stay`**: Built the room blocks without live availability or booking engines. Inserted tracking placeholders for pending pricing/amenities.
+- **Stage 7 - `/experience`**: Designed sections for Shiva Shakthi Darshanam, The Cow Shelter, and The Fish Pond without unverified scientific claims.
+- **Stage 8 - `/about`, `/contact`, `/enquire`, `/blog`**:
+  - `About`: Scaffolded the brand story and left a distinct development placeholder for the Founder profile.
+  - `Contact`: Added the verified location string and set up an explicit WhatsApp/Email priority hierarchy.
+  - `Enquire`: Built a premium conversational form capturing dates and specific intent (no fake calendars).
+  - `Blog`: Developed the new route to replace the old Gallery, tracking 4 temporary articles for visual development.
 - Verified build stability (`npm run build` completed with 0 errors).
-- **Git Checkpoint:** `feat: Stage 5 - Subpages scaffolding`
+- **Git Checkpoint:** `refactor: Stage 5-8 subpage refinement per specs`
 
 ## 6. Current Status & Next Steps
-- Stage 1-5 core site architecture is fully built and deployed to GitHub.
-- Next steps involve reviewing these layouts, gathering the final verified client copy/assets, and integrating them to replace the placeholders.
+- Stage 1-9 core site architecture and asset tracking is fully compliant and deployed to GitHub.
+- Ready for QA and final refinement (Stage 10).

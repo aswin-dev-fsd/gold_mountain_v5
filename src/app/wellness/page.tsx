@@ -58,7 +58,7 @@ export default function WellnessPage() {
           </div>
           <div className="relative aspect-[4/5] bg-brand-green/5 overflow-hidden">
             <Image 
-              src="https://images.unsplash.com/photo-1490818387583-1b5ba459740f?q=80&w=800&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=800&auto=format&fit=crop" 
               alt="Healthy food" 
               fill 
               className="object-cover" 

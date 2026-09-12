@@ -11,7 +11,7 @@ export default function StayPage() {
       capacity: "Up to 2 Guests",
       price: "Pricing pending confirmation",
       amenities: ["Air conditioning", "High-speed Wi-Fi", "Room service"],
-      image: "https://images.unsplash.com/photo-1582719478250-c894e4dc24a2?q=80&w=800&auto=format&fit=crop"
+      image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=800&auto=format&fit=crop"
     },
     {
       id: "garden-suite",

@@ -55,7 +55,7 @@ export default function ExperiencePage() {
           <div className="space-y-6">
             <div className="relative aspect-[4/3] bg-brand-green/5 overflow-hidden">
               <Image 
-                src="https://images.unsplash.com/photo-1595858102148-18e388ee09bb?q=80&w=600&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1517498779691-37d363f85b88?q=80&w=600&auto=format&fit=crop" 
                 alt="From Our Land" 
                 fill 
                 className="object-cover" 
@@ -71,7 +71,7 @@ export default function ExperiencePage() {
           <div className="space-y-6">
             <div className="relative aspect-[4/3] bg-brand-green/5 overflow-hidden">
               <Image 
-                src="https://images.unsplash.com/photo-1546445317-29f4545e9d53?q=80&w=600&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?q=80&w=600&auto=format&fit=crop"
                 alt="The Cow Shelter" 
                 fill 
                 className="object-cover" 
@@ -87,7 +87,7 @@ export default function ExperiencePage() {
           <div className="space-y-6">
             <div className="relative aspect-[4/3] bg-brand-green/5 overflow-hidden">
               <Image 
-                src="https://images.unsplash.com/photo-1524384351336-6e9447d95955?q=80&w=600&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=600&auto=format&fit=crop"
                 alt="The Fish Pond" 
                 fill 
                 className="object-cover" 

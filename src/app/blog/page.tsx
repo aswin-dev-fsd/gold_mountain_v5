@@ -23,7 +23,7 @@ export default function BlogPage() {
       category: "Food",
       title: "From Our Herbal Garden",
       excerpt: "How traditional local plants are integrated into our daily meals and wellness practices.",
-      image: "https://images.unsplash.com/photo-1595858102148-18e388ee09bb?q=80&w=600&auto=format&fit=crop"
+      image: "https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?q=80&w=600&auto=format&fit=crop"
     },
     {
       id: "4",
