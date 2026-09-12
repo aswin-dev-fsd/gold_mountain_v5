@@ -1,69 +1,90 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="min-h-screen py-24 px-8 md:px-16 lg:px-32 max-w-7xl mx-auto">
+      {/* Design System Test View */}
+      <div className="space-y-16">
+        
+        <header className="space-y-4 border-b border-brand-gold/30 pb-8">
+          <p className="text-brand-gold font-sans uppercase tracking-widest text-sm font-medium">Stage 2: Design System</p>
+          <h1 className="text-5xl md:text-6xl text-brand-green font-light tracking-tight">Gold Mountain Wellness Resort</h1>
+          <p className="text-xl md:text-2xl text-brand-green/80 font-serif italic max-w-2xl">
+            A peaceful resort experience in the presence of Arunachala. Come for wellness. Stay for the experience.
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+        </header>
+
+        <section className="space-y-8">
+          <h2 className="text-3xl text-brand-green border-b border-brand-green/10 pb-4">Typography (Outfit & The Seasons)</h2>
+          
+          <div className="space-y-6">
+            <div>
+              <p className="text-sm text-brand-green/60 mb-1">Heading 1 (45-60px)</p>
+              <h1 className="text-4xl md:text-[60px] leading-tight text-brand-green">Discover Gold Mountain</h1>
+            </div>
+            <div>
+              <p className="text-sm text-brand-green/60 mb-1">Heading 2 (35-40px)</p>
+              <h2 className="text-[35px] md:text-[40px] leading-tight text-brand-green">Heal. Reconnect. Renew.</h2>
+            </div>
+            <div>
+              <p className="text-sm text-brand-green/60 mb-1">Heading 3 (25-30px)</p>
+              <h3 className="text-[25px] md:text-[30px] leading-tight text-brand-green">The Wellness Journey</h3>
+            </div>
+            <div>
+              <p className="text-sm text-brand-green/60 mb-1">Body (16-24px)</p>
+              <p className="text-base md:text-[18px] leading-[24px] text-brand-green/90 max-w-3xl">
+                The resort is the destination and the environment for the stay. Wellness is the strongest proposition, not the entire identity. Ayurveda and traditional therapies are important parts of wellness, but they must not visually or strategically dominate the entire site.
+              </p>
+            </div>
+            <div>
+              <p className="text-sm text-brand-green/60 mb-1">Secondary / Emphasis (The Seasons)</p>
+              <p className="font-serif text-2xl italic text-brand-gold">Nourish the body and quiet the mind in the presence of Arunachala.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="space-y-8">
+          <h2 className="text-3xl text-brand-green border-b border-brand-green/10 pb-4">Color Palette</h2>
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="space-y-2">
+              <div className="h-24 rounded bg-brand-ivory border border-brand-green/10"></div>
+              <p className="text-sm font-medium">Warm Ivory</p>
+              <p className="text-xs text-brand-green/60">#F7F3EA (50%)</p>
+            </div>
+            <div className="space-y-2">
+              <div className="h-24 rounded bg-brand-green"></div>
+              <p className="text-sm font-medium">Forest Green</p>
+              <p className="text-xs text-brand-green/60">#214D33 (25%)</p>
+            </div>
+            <div className="space-y-2">
+              <div className="h-24 rounded bg-brand-gold"></div>
+              <p className="text-sm font-medium">Gold</p>
+              <p className="text-xs text-brand-green/60">#C49A3A (15%)</p>
+            </div>
+            <div className="space-y-2">
+              <div className="h-24 rounded bg-brand-red"></div>
+              <p className="text-sm font-medium">Deep Red</p>
+              <p className="text-xs text-brand-green/60">#8F2D24 (10%)</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="space-y-8">
+          <h2 className="text-3xl text-brand-green border-b border-brand-green/10 pb-4">Buttons & Actions</h2>
+          
+          <div className="flex flex-wrap gap-6 items-center">
+            <button className="bg-brand-green text-brand-ivory px-8 py-4 uppercase tracking-wider text-sm font-medium hover:bg-brand-green/90 transition-colors duration-200">
+              Enquire
+            </button>
+            <button className="bg-brand-gold text-brand-ivory px-8 py-4 uppercase tracking-wider text-sm font-medium hover:bg-brand-gold/90 transition-colors duration-200">
+              Explore Wellness
+            </button>
+            <button className="border border-brand-green text-brand-green px-8 py-4 uppercase tracking-wider text-sm font-medium hover:bg-brand-green hover:text-brand-ivory transition-colors duration-200">
+              Plan Your Stay
+            </button>
+          </div>
+        </section>
+
+      </div>
+    </main>
   );
 }
